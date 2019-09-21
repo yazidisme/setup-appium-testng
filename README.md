@@ -36,8 +36,8 @@
     ```
 * Set the *Java* and *Android SDK* paths in *bash_profile* file
     ```
-    export JAVA_HOME=/Library/Java/JavaVirtualMachines/**jdk_version_folder**/Contents/Home
-    export ANDROID_HOME=/Users/**some_folder**/Library/Android/sdk
+    export JAVA_HOME=/Library/Java/JavaVirtualMachines/JDK_VERSION_FOLDER/Contents/Home
+    export ANDROID_HOME=/Users/SOME_FOLDERS/Library/Android/sdk
     export PATH=$PATH:$ANDROID_HOME/tools
     export PATH=$PATH:$ANDROID_HOME/tools/bin
     export PATH=$PATH/:$ANDROID_HOME/platform-tools
