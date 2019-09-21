@@ -1,5 +1,5 @@
 ## Setup Android Test Automation using **Appium** and **TestNG** with Java Language in MacOS
----
+
 #### 1. Java Development Kit (JDK)
 * [Download](https://www.oracle.com/technetwork/java/javase/downloads/index.html) and [install](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-macos.htm#JSJIG-GUID-F575EB4A-70D3-4AB4-A20E-DBE95171AB5F) *JDK*
 * Type `java -version` in your *Terminal* to verify installation and find out your *java version*
@@ -36,11 +36,11 @@
     ```
 * Set the *Java* and *Android SDK* paths in *bash_profile* file
     > export JAVA_HOME=/Library/Java/JavaVirtualMachines/**jdk_version_folder**/Contents/Home
-    export ANDROID_HOME=/Users/**some_folder**/Library/Android/sdk
-    export PATH=$PATH:$ANDROID_HOME/tools 
-    export PATH=$PATH:$ANDROID_HOME/tools/bin
-    export PATH=$PATH/:$ANDROID_HOME/platform-tools
-    export PATH=$PATH:$JAVA_HOME/bin
+    > export ANDROID_HOME=/Users/**some_folder**/Library/Android/sdk
+    > export PATH=$PATH:$ANDROID_HOME/tools
+    > export PATH=$PATH:$ANDROID_HOME/tools/bin
+    > export PATH=$PATH/:$ANDROID_HOME/platform-tools
+    > export PATH=$PATH:$JAVA_HOME/bin
 * Save and exit your *bash_profile*
 * Run emulator or connecting your real device
 * Type `adb devices` in *Terminal* to find out name and connection of your devices
