@@ -101,7 +101,7 @@
 ##### We are ready to write **Appium** test code
 * See the sample of [java project](https://prnt.sc/p93bpc)
 * Before execute your android tests, device must be [connected with *adb devices*](https://prnt.sc/p8sfi7) and *Appium* must be [opened in your *Terminal*](https://prnt.sc/p8smzt).
-* Find out the app package and app activity in Terminal using the following command
+* Find out the app package and app activity in *Terminal* using the following command
     ```sh
     $ adb shell "dumpsys window windows | grep -E 'mCurrentFocus|mFocusApp'"
     ```
