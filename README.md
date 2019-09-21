@@ -35,12 +35,14 @@
     $ open -e .bash_profile
     ```
 * Set the *Java* and *Android SDK* paths in *bash_profile* file
-    > export JAVA_HOME=/Library/Java/JavaVirtualMachines/**jdk_version_folder**/Contents/Home
-    > export ANDROID_HOME=/Users/**some_folder**/Library/Android/sdk
-    > export PATH=$PATH:$ANDROID_HOME/tools
-    > export PATH=$PATH:$ANDROID_HOME/tools/bin
-    > export PATH=$PATH/:$ANDROID_HOME/platform-tools
-    > export PATH=$PATH:$JAVA_HOME/bin
+    ```
+    export JAVA_HOME=/Library/Java/JavaVirtualMachines/**jdk_version_folder**/Contents/Home
+    export ANDROID_HOME=/Users/**some_folder**/Library/Android/sdk
+    export PATH=$PATH:$ANDROID_HOME/tools
+    export PATH=$PATH:$ANDROID_HOME/tools/bin
+    export PATH=$PATH/:$ANDROID_HOME/platform-tools
+    export PATH=$PATH:$JAVA_HOME/bin
+    ```
 * Save and exit your *bash_profile*
 * Run emulator or connecting your real device
 * Type `adb devices` in *Terminal* to find out name and connection of your devices
