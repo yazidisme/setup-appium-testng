@@ -106,3 +106,8 @@
     $ adb shell "dumpsys window windows | grep -E 'mCurrentFocus|mFocusApp'"
     ```
 * See the [output result](https://prnt.sc/p8stgo), there are `com.google.android.youtube` as app package and `com.google.android.apps.youtube.app.WatchWhileActivity` as app activity
+* Finding locators using `uiautomatorviewer` from *Android Studio*, type the following command in *Terminal*
+    ```sh
+    $ uiautomatorviewer
+    ```
+* See the [uiautomatorviewer](https://prnt.sc/p9435x)
