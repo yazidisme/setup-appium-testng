@@ -28,13 +28,13 @@
 * See the output of *[node and npm version](https://prnt.sc/p8zkyz)*
 
 #### 5. Setting the system variables
-* Create and open your *.bash_profile* using *Terminal*
+* Create and open your *.zshrc* using *Terminal*
     ```sh
     $ cd ~/
-    $ touch .bash_profile
-    $ open -e .bash_profile
+    $ touch .zshrc
+    $ open -e .zshrc
     ```
-* Set the *Java* and *Android SDK* paths in *bash_profile* file
+* Set the *Java* and *Android SDK* paths in *zshrc* file
     ```
     export JAVA_HOME=/Library/Java/JavaVirtualMachines/JDK_VERSION_FOLDER/Contents/Home
     export ANDROID_HOME=/Users/SOME_FOLDERS/Library/Android/sdk
@@ -43,7 +43,7 @@
     export PATH=$PATH/:$ANDROID_HOME/platform-tools
     export PATH=$PATH:$JAVA_HOME/bin
     ```
-* Save and exit your *bash_profile*
+* Save and exit your *.zshrc*
 * Run emulator or connecting your real device
 * Type `adb devices` in *Terminal* to find out name and connection of your devices
 * See the output of [list of devices](https://prnt.sc/p8sfi7)
